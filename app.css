@@ -1,0 +1,52 @@
+@font-face{
+    font-family: 'MyFont';
+    src: url('Norse-Bold.otf') format('truetype');
+}
+
+body{
+    font-family: 'MyFont', Norse-Bold;
+    background: url('background_img.jpg') no-repeat center center / cover;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #596D48;
+}
+
+input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:invalid {
+  border-color: red;
+}
+input:focus{
+    border: 2px solid #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgb(0, 123, 255, 0.5);
+}
+form {
+     margin: 120px 50px;
+}
+#odin{
+    width: 40;
+    height: 50px;
+    background-color: black;
+    opacity: 0.5;
+    margin: 10px;
+}
+div{
+    background-color: rgb(250, 250, 250, 0.85); 
+    width: 400px;
+    /* height: 600px; */
+    /* margin: 80px 120px ; */
+}
